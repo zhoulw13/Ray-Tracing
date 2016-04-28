@@ -1,0 +1,34 @@
+﻿Build started 16/04/28 20:02:43.
+     1>Project "F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Ray Tracing\Ray Tracing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Ray Tracing\glm-0.9.7.4\glm" /I"F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Ray Tracing\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt raytrace.cpp
+         raytrace.cpp
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\variables.h(56): warning C4091: 'extern ' : ignored on left of 'vertexnormal' when no variable is declared
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\variables.h(66): warning C4091: 'extern ' : ignored on left of 'tri' when no variable is declared
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\variables.h(72): warning C4091: 'extern ' : ignored on left of 'trinormal' when no variable is declared
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\variables.h(83): warning C4091: 'extern ' : ignored on left of 'sphere' when no variable is declared
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\include\freeimage.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(6): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(7): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(23): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(26): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(27): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(28): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(47): warning C4305: 'initializing' : truncation from 'int' to 'float'
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(79): warning C4305: 'initializing' : truncation from 'int' to 'float'
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(116): warning C4305: 'return' : truncation from 'int' to 'float'
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(128): warning C4305: 'return' : truncation from 'int' to 'float'
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(153): warning C4305: '=' : truncation from 'int' to 'float'
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(174): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>f:\1my\learn\onlinecourse\cg_online\ray tracing\ray tracing\raytrace.cpp(181): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Debug\Ray Tracing.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Ray Tracing\lib" FreeImage.lib glew32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Debug\Ray Tracing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Debug\Ray Tracing.lib" /MACHINE:X86 Debug\main.obj
+         Debug\raytrace.obj
+         Debug\readfile.obj
+         Debug\Transform.obj
+         Ray Tracing.vcxproj -> F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Debug\Ray Tracing.exe
+     1>Done Building Project "F:\1My\Learn\onlineCourse\CG_online\Ray Tracing\Ray Tracing\Ray Tracing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.04
